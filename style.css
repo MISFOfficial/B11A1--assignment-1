@@ -45,6 +45,7 @@ header>ul>li>button{
     font-weight: 600;
     color: rgb(0, 106, 80);
     transition: .3s;
+    background: transparent;
 }
 
 header>ul>li>button:hover{
@@ -97,7 +98,55 @@ header>ul>li>button:hover{
     Width: 474.03px;
     Height: 400px;
 }
+/*pillars section*/
 
 
+
+.pillars{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    margin-top: 80px;
+    gap: 32px;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.box-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+.box{
+    width: 302px;
+    height: 244px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+}
+.box>img{
+    width: 62px;
+    height: 62px;
+    margin-bottom: 0px;
+}
+.box>h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+.box>p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+
+/*future section*/
 
 
