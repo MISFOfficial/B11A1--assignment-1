@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body{
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    padding-left: 160px;
+    padding-right: 160px;
+    background: rgb(245, 245, 245);
+
+}
+
+header>ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background: green;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+header>ul>li{
+    list-style: none;
+}
+
+.ban{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+header>ul>li>button{
+    width: 116px;
+    height: 52px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(0, 106, 80);
+    transition: .3s;
+}
+
+header>ul>li>button:hover{
+    background: rgb(0, 106, 80);;
+    color: white;
+    border: none;
+}
+  
