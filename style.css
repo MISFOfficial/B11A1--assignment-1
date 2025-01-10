@@ -3,8 +3,6 @@
 body{
     font-family: "Fira Sans", serif;
     font-weight: 400;
-    padding-left: 160px;
-    padding-right: 160px;
     background: rgb(245, 245, 245);
     margin: 0px;
 
@@ -20,6 +18,8 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-right: 160px;
+    padding-left: 160px;
 }
 header>nav{
     display: flex;
@@ -61,10 +61,8 @@ header>nav>li>button:hover{
 
 
 main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+padding-left: 160px;
+padding-right: 160px;
 }
 /*ban-2 0 section*/
 .ban-2{
@@ -525,4 +523,39 @@ main{
     font-size: 16px;
     font-weight: 400;
     margin-top: 25px;
+}
+
+
+/*footer section*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px ;
+    background: white;
+    margin-top: 80px;
+    padding-top: 50px;padding-bottom: 50px;
+}
+
+footer>p{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    width: 1122px;
+    margin-bottom: 0px;margin-top: 32px;
+}
+footer>h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+footer>div{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    margin-top: 32px;
+}
+footer>div>img{
+    width: 24px;
+    height: 24px;
 }
