@@ -117,8 +117,9 @@ header>ul>li>button:hover{
 }
 .box-flex{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: wrap;
     justify-content: center;
+    align-items: center;
     gap: 24px;
 }
 .box{
@@ -129,18 +130,18 @@ header>ul>li>button:hover{
     border-radius: 16px;
     padding: 24px;
 }
-.box>img{
+.icon{
     width: 62px;
     height: 62px;
     margin-bottom: 0px;
 }
-.box>h5{
+.title-1{
     font-size: 20px;
     font-weight: 700;
     margin-top: 25px;
     margin-bottom: 0px;
 }
-.box>p{
+.text{
     font-size: 16px;
     font-weight: 400;
     margin-top: 12px;
@@ -149,4 +150,71 @@ header>ul>li>button:hover{
 
 /*future section*/
 
+.future{
+    margin-top: 80px;
+}
 
+.box-2{
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 32px;
+}
+.vision-1{
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.vision-2{
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+}
+.vision-3 {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+}
+
+
+
+.vision-1>button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    font-size: 16px;
+    font-weight: 600;color: white;
+    border: none;
+    margin-top: 24px;
+}
+.vision-2>button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    font-size: 16px;
+    font-weight: 600;color: white;
+    border: none;
+    margin-top: 24px;
+}
+.vision-3>button{
+    width: 122px;
+    height: 41px;
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    font-size: 16px;
+    font-weight: 600;color: white;
+    border: none;
+    margin-top: 24px;
+}
