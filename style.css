@@ -5,8 +5,6 @@ body{
     font-weight: 400;
     background: rgb(245, 245, 245);
     margin: 0px;
-
-
 }
 
 header{
@@ -70,7 +68,7 @@ padding-right: 160px;
     align-items: center;
     justify-content: space-between;
     background: rgb(198, 228, 214);
-    padding: 80px;
+    padding: 80px 100px 80px 100px;
     border-radius: 24px;
     gap: 64px;
 
@@ -120,11 +118,10 @@ padding-right: 160px;
 .pillars{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: start;
     margin-top: 80px;
     gap: 32px;
 }
+
 
 .title{
     font-size: 40px;
@@ -132,14 +129,13 @@ padding-right: 160px;
 }
 .box-flex{
     display: flex;
-    flex-flow: wrap;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
 .box{
     width: 302px;
-    height: 244px;
     background: rgb(255, 255, 255);
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
