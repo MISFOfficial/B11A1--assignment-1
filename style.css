@@ -8,6 +8,7 @@ body{
     background: rgb(245, 245, 245);
     margin: 0px;
 
+
 }
 
 header{
@@ -19,21 +20,26 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: aqua;
 
 }
 header>ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 header>ul>li{
     list-style: none;
 }
 
+
 .ban{
     font-size: 32px;
     font-weight: 700;
+    display: flex;
+    margin-left: 0px;
 }
 
 header>ul>li>button{
@@ -55,7 +61,12 @@ header>ul>li>button:hover{
 }
 
 
-
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /*ban-2 0 section*/
 .ban-2{
     display: flex;
@@ -217,4 +228,34 @@ header>ul>li>button:hover{
     font-weight: 600;color: white;
     border: none;
     margin-top: 24px;
+}
+
+/*Dr. Muhammad Yunus section*/
+
+.younus{
+    width: 1280px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding-bottom: 48px;
+    padding-top: 48px;
+    padding-left: 24px ;
+    padding-right: 24px ;
+    margin-top: 32px;
+}
+.younus>div{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.younus>div>div>p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.younus>div>div>h2{
+    font-size: 20px;
+    font-weight: 600;
 }
