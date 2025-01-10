@@ -367,6 +367,53 @@ main{
 
 
 /*donet section*/
+.donet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+
+}
+.donet>div{
+    gap: 24px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+.taka{
+    width: 252px;
+    height: 128px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+.taka:hover{
+    background: rgb(0, 106, 80);
+    color: white;
+}
+
+.taka-200{
+    width: 252px;
+    height: 128px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+.taka-200:hover{
+    background: rgb(0, 106, 80);
+    color: white;
+}
+
+
 .donet>button{
     width: 139px;
     height: 48px;
@@ -378,10 +425,32 @@ main{
     font-weight: 600;
     border: none;
     transition: .4s;
+    margin-top: 32px;
 }
 .donet>button:hover{
     background: transparent;
     border: 1px solid rgb(0, 106, 80);
     color: black;
     transform: scale(1.1);
+}
+
+.donet>input{
+    width: 1032px;
+    height: 64px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.donet>h1{
+    margin-bottom: 0px;
+}
+.donet>p{
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 0px;
 }
