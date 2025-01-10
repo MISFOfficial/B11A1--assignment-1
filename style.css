@@ -74,6 +74,7 @@ main{
     background: rgb(198, 228, 214);
     padding: 80px;
     border-radius: 24px;
+    gap: 64px;
 
 }
 
@@ -103,6 +104,13 @@ main{
     color: rgb(255, 255, 255);
     margin-top: 24px;
     border: none;
+    transition: .4s;
+}
+.ban-2-banner>button:hover{
+    background: transparent;
+    border: 2px solid rgb(0, 106, 80);
+    color: black;
+    transform: scale(1.05);
 }
 
 .ban-2>div>img{
@@ -206,7 +214,14 @@ main{
     font-weight: 600;color: white;
     border: none;
     margin-top: 24px;
+    transition: .4s;
 }
+.vision-1>button:hover{
+    background: transparent;
+    border:  1px solid rgb(0, 106, 80);
+    color: black;
+}
+
 .vision-2>button{
     width: 122px;
     height: 41px;
@@ -216,7 +231,14 @@ main{
     font-weight: 600;color: white;
     border: none;
     margin-top: 24px;
+    transition: .4s;
 }
+.vision-2>button:hover{
+    background: transparent;
+    border:  1px solid rgb(0, 106, 80);
+    color: black;
+}
+
 .vision-3>button{
     width: 122px;
     height: 41px;
@@ -226,6 +248,12 @@ main{
     font-weight: 600;color: white;
     border: none;
     margin-top: 24px;
+    transition: .4s ;
+}
+.vision-3>button:hover{
+    background: transparent;
+    border:  1px solid rgb(0, 106, 80);
+    color: black;
 }
 
 /*Dr. Muhammad Yunus section*/
@@ -256,4 +284,104 @@ main{
 .younus>div>div>h2{
     font-size: 20px;
     font-weight: 600;
+}
+
+
+/*news section*/
+.news{
+    margin-top: 80px;
+}
+.news>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;margin-top: 32px;
+}
+
+.aljazeera{
+   display: flex;
+   gap: 32px;
+   background: rgb(255, 255, 255);
+   border-radius: 24px;
+   width: 1280px;
+   height: 402px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 48px;
+}
+.aljazeera-middle{
+   display: flex;
+   gap: 32px;
+   background: rgb(255, 255, 255);
+   border-radius: 24px;
+   width: 1280px;
+   height: 402px;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: center;
+   align-items: center;
+   padding: 48px;
+}
+
+
+
+.news>div>div>img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.news>div>div>div>h1{
+    font-size: 32px;
+    font-weight: 700;
+}
+.news>div>div>div>img{
+    width: 134px;
+    height: 40px;
+}
+.news>div>div>div>p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.news>div>div>div>button{
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    transition: .4s;
+}
+.news>div>div>div>button:hover{
+    background: transparent;
+    border: 1px solid rgb(0, 106, 80);
+    color: black;
+    transform: scale(1.1);
+}
+
+
+
+
+/*donet section*/
+.donet>button{
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    transition: .4s;
+}
+.donet>button:hover{
+    background: transparent;
+    border: 1px solid rgb(0, 106, 80);
+    color: black;
+    transform: scale(1.1);
 }
