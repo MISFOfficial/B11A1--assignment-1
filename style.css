@@ -6,19 +6,27 @@ body{
     padding-left: 160px;
     padding-right: 160px;
     background: rgb(245, 245, 245);
+    margin: 0px;
 
 }
 
+header{
+    margin-bottom: 0px;
+    height: 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
 header>ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
-    background: green;
-    position: sticky;
-    top: 0;
-    z-index: 1;
 }
+
 header>ul>li{
     list-style: none;
 }
@@ -44,4 +52,52 @@ header>ul>li>button:hover{
     color: white;
     border: none;
 }
-  
+
+
+
+/*ban-2 0 section*/
+.ban-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(198, 228, 214);
+    padding: 80px;
+    border-radius: 24px;
+
+}
+
+.ban-2-banner{
+    display: flex;
+    flex-direction: column;
+}
+
+.ban-2-banner>h5{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+}
+.ban-2-banner>h3{
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0px;
+    margin-top: 16px;
+}
+.ban-2-banner>button{
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-top: 24px;
+}
+
+.ban-2>div>img{
+    Width: 474.03px;
+    Height: 400px;
+}
+
+
+
+
