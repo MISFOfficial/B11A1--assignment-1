@@ -130,12 +130,14 @@ padding-right: 160px;
 .box-flex{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 24px;
+
 }
 .box{
     width: 302px;
+    height: 244px;
     background: rgb(255, 255, 255);
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
@@ -169,33 +171,29 @@ padding-right: 160px;
     gap: 24px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 32px;
 }
 .vision-1{
     width: 410.67px;
-    height: 325px;
-    box-sizing: border-box;
     border-radius: 16px;
     background: rgba(84, 144, 245, 0.2);
     padding: 32px;
 }
 .vision-2{
+
     width: 410.67px;
-    height: 325px;
-    box-sizing: border-box;
     border-radius: 16px;
     background: rgb(198, 228, 214);
     padding: 32px;
 }
 .vision-3 {
     width: 410.67px;
-    height: 325px;
-    box-sizing: border-box;
     border-radius: 16px;
     background: rgb(247, 235, 207);
     padding: 32px;
 }
+
 
 
 
@@ -288,7 +286,19 @@ padding-right: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 24px;margin-top: 32px;
+    gap: 24px;
+    margin-top: 32px;
+}
+.aljazeera>div>h1{
+    margin: 0px;
+    padding: 0px;
+}
+.aljazeera-middle>div>h1{
+    margin: 0px;
+    padding: 0px;
+}
+.news>div>div>div>p>span{
+    margin-left: 12px;
 }
 
 .aljazeera{
@@ -320,6 +330,7 @@ padding-right: 160px;
     width: 408px;
     height: 306px;
     border-radius: 24px;
+    object-fit: cover;
 }
 .news>div>div>div>h1{
     font-size: 32px;
@@ -371,8 +382,7 @@ padding-right: 160px;
     margin-top: 32px;
 }
 .taka{
-    width: 252px;
-    height: 128px;
+    padding: 40px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
@@ -387,8 +397,7 @@ padding-right: 160px;
 }
 
 .taka-200{
-    width: 252px;
-    height: 128px;
+    padding: 40px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(198, 228, 214);
